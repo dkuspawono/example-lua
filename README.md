@@ -8,13 +8,13 @@ view the code there, see hits and misses for coverage, etc.
 ## Guide
 ### Travis Setup
 
-Add to your `.travis.yml` file.
+Add to your `.travis.yml` file.:fire:
 ```yml
 language: c
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 ```
-### Produce Coverage Reports
+### Produce Coverage Reports  ***:rocket:***
 Run your tests with [LuaCov][5] in order to create the necessary coverage
 reports. For example:
 
@@ -35,4 +35,4 @@ after_success:
 We are happy to help if you have any questions. Please contact email our Support at [support@codecov.io](mailto:support@codecov.io)
 
 [1]: https://codecov.io/
-[5]: http://keplerproject.github.io/luacov
+[5]: http://keplerproject.github.io/luacov :white_check_mark:
